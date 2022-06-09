@@ -1,0 +1,47 @@
+body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 70vh;
+     width: 100vw;
+
+
+     
+}
+.container{
+    text-align: center;
+    border: 1px solid grey;
+    box-shadow: 5px 5px 3px 1px;
+    height: 80vh;
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    position: fixed;
+
+
+}
+.container img{
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 60%;
+        height: 85%;
+    }
+    .container img{
+        width: 40%;
+        height: 40%;
+    }
+    .container .info{
+        font-size:8px;
+    }
+    .container .country{
+        font-size:8px;
+    }
+    main button{
+        }
+}
